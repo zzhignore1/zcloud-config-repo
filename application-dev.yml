@@ -15,12 +15,12 @@ spring:
   rabbitmq:
     host: localhost
     port: 5672
-    #username: root
+    username: root
     password: 123456
     virtual-host: /zzh
   redis:
     host: localhost
-    name: root
+    #name: root
     password: 123456
     port: 6379
     timeout: 0
